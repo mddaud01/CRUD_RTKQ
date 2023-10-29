@@ -1,0 +1,84 @@
+.userList{
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 25px;
+    margin: auto;
+    padding: 20px;
+}
+.userData{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 10px;
+}
+.btnAdd{
+    margin: 10px;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form {
+     margin: 10px;
+     margin: auto;
+     border: 1px solid black;
+     border-radius: 25px ;
+     width: max-content;
+     padding: 20px;
+}
+.form-group{
+    padding: 10px;
+}
+.btnAction{
+    margin: 10px;
+    border: green;
+    background:green;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btnClose {
+    background: red;
+    border: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.editBtn{
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    border: 1px solid wheat;
+}
+
+tr{
+    border: 1px solid gray;
+}
+td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    
+}
+thead tr{
+    background: yellow;
+}
+.nav{
+    display: flex;
+    border: 1px solid black;
+}
+.nav ul{
+display: flex;
+align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+.nav ul li .link{
+    color: black;
+    text-decoration: none;
+}
