@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "../api/authSlice";
+import { login ,compare} from "../api/authSlice";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
   const navigate = useNavigate();
-
   const [formData, setFormData] = useState({
     email: "",
     password: "",
